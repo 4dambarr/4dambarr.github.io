@@ -1,0 +1,26 @@
+.navholder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navitem {
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navitem:hover {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    cursor: pointer;
+}
+
+.navlink {
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: white;
+}

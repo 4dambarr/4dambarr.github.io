@@ -1,0 +1,14 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255,255,252);
+}
+
+.pageStyle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contentHolder {
+    max-width: 750px;
+}
